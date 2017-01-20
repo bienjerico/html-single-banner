@@ -1,0 +1,78 @@
+body{
+	background-color: white;
+}
+
+.single-banner{
+	text-align: center;
+	position: relative;
+	padding-top: 5.5px;
+	padding-bottom: 5.5px;
+}
+.single-banner .container,
+.single-banner .container-fluid{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.single-banner img {
+	width: 100%;
+	height: 100%;
+}
+.single-banner .content{
+	position: absolute;
+	bottom: 20%;
+	left: 0;
+	right: 0;
+	color: white;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.single-banner .content-column {
+	padding-left:0;
+	padding-right:0;
+}
+.single-banner .content-column .content {
+	width: auto;
+}
+.single-banner .content-bg-brown{
+	background-color: #e9ddcc;
+}
+
+
+@media screen  and (min-width: 768px) { 
+	.single-banner .column-pad-left {
+		padding-left:5.5px;
+	}
+	.single-banner .column-pad-right {
+		padding-right:5.5px;
+	}
+	.single-banner .content.content-center p{
+		margin-left: auto;
+   		margin-right: auto;
+	}
+	.single-banner .content.content-right p{
+		text-align: right;
+		float: right;
+	}
+	.single-banner .content.content-left p{
+		text-align: left;
+		float: left;
+	}
+	.single-banner .content.content-xs p{
+		width: 20%;
+	}
+	.single-banner .content.content-sm p{
+		width: 40%;
+	}
+	.single-banner .content.content-md p{
+		width: 60%;
+	}
+	.single-banner .content.content-lg p{
+		width: 80%;
+	}
+
+}
+
+
+
+
+

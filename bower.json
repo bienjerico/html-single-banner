@@ -1,0 +1,20 @@
+{
+  "name": "html-single-banner",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "bienjerico <bien.jerico@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

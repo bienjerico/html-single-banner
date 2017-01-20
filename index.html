@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>HTML Navigation</title>
+
+    <!-- Bootstrap -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <section class="single-banner">
+      <div class="container-fluid">
+        <picture>
+            <!--[if IE 9]><video style="display: none;"><![endif]--> 
+            <source srcset="images/TANNOY-Product-Features-Page_Asset_06_Mobile.png" media="(max-width: 500px)">
+            <source srcset="images/TANNOY-Product-Features-Page_Asset_06.png" media="(max-width: 767px)">
+            
+            <source srcset="images/TANNOY-Product-Features-Page_Asset_06.png">    
+            <!--[if IE 9]></video><![endif]-->
+            <img srcset="images/TANNOY-Product-Features-Page_Asset_06.png" alt="My default image"> 
+        </picture>
+        <!-- <img src="images/TANNOY-Product-Features-Page_Asset_06_Mobile.png" alt="" class="banner-image visible-xs">
+        <img src="images/TANNOY-Product-Features-Page_Asset_06.png" alt="" class="banner-image hidden-xs"> -->
+        <div class="container content content-right content-sm">
+          <p>The DVS 6 is ideally suited for stereo or mono
+          background/foreground music applications in theme parks, hotels, restaurants and bars, retail stores, as well as corporate AV, residential developments, and houses of worship.</p>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="single-banner">
+      <div class="container">
+        <picture>
+            <!--[if IE 9]><video style="display: none;"><![endif]--> 
+            <source srcset="images/TANNOY-Product-Features-Page_Asset_09_Mobile.png" media="(max-width: 500px)">
+            <source srcset="images/TANNOY-Product-Features-Page_Asset_09.png" media="(max-width: 767px)">
+            
+            <source srcset="images/TANNOY-Product-Features-Page_Asset_09.png">    
+            <!--[if IE 9]></video><![endif]-->
+            <img srcset="images/TANNOY-Product-Features-Page_Asset_09.png" alt="My default image"> 
+        </picture>
+        <!-- <img src="images/TANNOY-Product-Features-Page_Asset_09_Mobile.png" alt="" class="banner-image visible-xs">
+        <img src="images/TANNOY-Product-Features-Page_Asset_09.png" alt="" class="banner-image hidden-xs"> -->
+        <div class="container content content-center content-md">
+          <p>The DVS 6 is ideally suited for stereo or mono
+          background/foreground music applications in theme parks, hotels, restaurants and bars, retail stores, as well as corporate AV, residential developments, and houses of worship.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="single-banner"  data-equal=".content-column">
+      <div class="container">
+        <div class="col-xs-12 col-sm-8 content-column column-pad-right">
+          <!-- <img src="images/TANNOY-Product-Features-Page_Asset_12_Mobile.png" alt="" class="banner-image visible-xs">
+          <img src="images/TANNOY-Product-Features-Page_Asset_12.png" alt="" class="banner-image hidden-xs"> -->
+          <picture>
+              <!--[if IE 9]><video style="display: none;"><![endif]--> 
+              <source srcset="images/TANNOY-Product-Features-Page_Asset_12_Mobile.png" media="(max-width: 500px)">
+              <source srcset="images/TANNOY-Product-Features-Page_Asset_12.png" media="(max-width: 767px)">
+              
+              <source srcset="images/TANNOY-Product-Features-Page_Asset_12.png">    
+              <!--[if IE 9]></video><![endif]-->
+              <img srcset="images/TANNOY-Product-Features-Page_Asset_12.png" alt="My default image"> 
+          </picture>
+          <div class="container content content-left content-md">
+            <p>The DVS 6 is ideally suited for stereo or mono
+            background/foreground music applications in theme parks, hotels, restaurants and bars, retail stores, as well as corporate AV, residential developments, and houses of worship.</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 content-column column-pad-left">
+          <picture>
+              <!--[if IE 9]><video style="display: none;"><![endif]--> 
+              <source srcset="images/DVS-6_P0BV7_Rear_Mobile.png" media="(max-width: 500px)">
+              <source srcset="images/DVS-6_P0BV7_Rear.png" media="(max-width: 767px)">
+              
+              <source srcset="images/DVS-6_P0BV7_Rear.png">    
+              <!--[if IE 9]></video><![endif]-->
+              <img srcset="images/DVS-6_P0BV7_Rear.png" alt="My default image" class="content-bg-brown"> 
+          </picture>
+          <!-- <img src="images/DVS-6_P0BV7_Rear_Mobile.png" alt="" class="banner-image visible-xs  content-bg-brown">
+          <img src="images/DVS-6_P0BV7_Rear.png" alt="" class="banner-image hidden-xs content-bg-brown"> -->
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+            /*!
+       * Simple jQuery Equal Heights
+       *
+       * Copyright (c) 2013 Matt Banks
+       * Dual licensed under the MIT and GPL licenses.
+       * Uses the same license as jQuery, see:
+       * http://docs.jquery.com/License
+       *
+       * @version 1.5.1
+       */
+      $(window).on('load', function() {
+
+          $.fn.equalHeights = function() {
+              var maxHeight = 0,
+                  $this = $(this);
+
+              $this.each( function() {
+                  var height = $(this).innerHeight();
+
+                  if ( height > maxHeight ) { maxHeight = height; }
+              });
+
+              return $this.css('height', maxHeight);
+          };
+
+          // auto-initialize plugin
+          $('[data-equal]').each(function(){
+              var $this = $(this),
+                  target = $this.data('equal');
+              $this.find(target).equalHeights();
+          });
+
+      });
+    </script>
+  </body>
+</html>
